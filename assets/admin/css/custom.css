@@ -1,0 +1,86 @@
+/* Create your style on here */
+
+.nav-custom li > a > i {
+    position: absolute !important;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px !important;
+    color: #fff !important;
+}
+
+.nav-custom li > a {
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 40px !important;
+    position: relative;
+}
+
+.navbar-fixed-top {
+    position: fixed !important;
+    top: 0;
+    padding: 0;
+}
+
+#page-content {
+    /*padding-top: 70px;*/
+}
+
+.nav-custom {
+    margin: 8px 0;
+}
+
+.slide {
+    background-color: transparent !important;
+    width: 100% !important;
+}
+.mini-custom {
+    background: #fff;
+    position: relative;
+}
+.mini-custom .mini-stat-icon {
+    display: block;
+    float: none;
+    width: 40px;
+    height: 40px;
+    font-size: 17px;
+    line-height: 40px;
+    color: #e9573f;
+        position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 !important;
+}
+.mini-custom .mini-stat-info{
+    text-align: center;
+}
+
+.mini-custom .mini-stat-info span {
+    font-size: 20px;
+}
+.panel-custom .panel-heading {
+    padding: 7px;
+}
+.panel-custom, .mini-custom {
+    margin-bottom: 10px !important;
+}
+.panel-desc p{
+    font-size: 14px;
+    margin: 0;
+}
+.counter-wrap>* {
+    display: inline-block !important;
+    font-size: 20px;
+}
